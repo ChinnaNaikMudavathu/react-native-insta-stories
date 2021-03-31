@@ -926,6 +926,15 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@react-native-community/art@^1.1.2":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@react-native-community/art/-/art-1.2.0.tgz#386d95393f6042d9006f9d4bc6063fb898794460"
+  integrity sha512-a+ZcRGl/BzLa89yi33Mbn5SHavsEXqKUMdbfLf3U8MDLElndPqUetoJyGkv63+BcPO49UMWiQRP1YUz6/zfJ+A==
+  dependencies:
+    art "^0.10.3"
+    invariant "^2.2.4"
+    prop-types "^15.7.2"
+
 "@react-native-community/cli-debugger-ui@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@react-native-community/cli-debugger-ui/-/cli-debugger-ui-3.0.0.tgz#d01d08d1e5ddc1633d82c7d84d48fff07bd39416"
@@ -1412,7 +1421,7 @@ array-unique@^0.3.2:
   resolved "https://registry.yarnpkg.com/array-unique/-/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
   integrity sha1-qJS3XUvE9s1nnvMkSp/Y9Gri1Cg=
 
-art@^0.10.0:
+art@^0.10.0, art@^0.10.3:
   version "0.10.3"
   resolved "https://registry.yarnpkg.com/art/-/art-0.10.3.tgz#b01d84a968ccce6208df55a733838c96caeeaea2"
   integrity sha512-HXwbdofRTiJT6qZX/FnchtldzJjS3vkLJxQilc3Xj+ma2MXjY4UAyQ0ls1XZYVnDvVIBiFZbC6QsvtW86TD6tQ==
@@ -5358,7 +5367,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.3"
 
-prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -5413,10 +5422,52 @@ react-devtools-core@^3.6.3:
     shell-quote "^1.6.1"
     ws "^3.3.1"
 
+react-insta-stories@^2.0.2:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/react-insta-stories/-/react-insta-stories-2.1.3.tgz#b74b3db587a9c1f7b5b6bdb66f146d119119b52b"
+  integrity sha512-/eaG9YhxTzG8N4KgWp1ynnQRAT/52tnzng5Oa3Cwa/FR5XtgjebhKS0CfErZUAg3G1RSvi5ZCAWaE3XKSPvBPw==
+
 react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
+
+react-native-image-progress@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-image-progress/-/react-native-image-progress-1.1.1.tgz#95bbe0875c7ebd54286df69cb37b598b94c54eb0"
+  integrity sha512-5rI2UjUo1bJoggU3lZAa+Wv29bm+N322XVR49mxfczfhaOyFdoXMIRgd5x2eXG+RQi9PcLleD6wxVDxGAPPO9Q==
+  dependencies:
+    prop-types "^15.5.10"
+
+react-native-linear-gradient@^2.5.6:
+  version "2.5.6"
+  resolved "https://registry.yarnpkg.com/react-native-linear-gradient/-/react-native-linear-gradient-2.5.6.tgz#96215cbc5ec7a01247a20890888aa75b834d44a0"
+  integrity sha512-HDwEaXcQIuXXCV70O+bK1rizFong3wj+5Q/jSyifKFLg0VWF95xh8XQgfzXwtq0NggL9vNjPKXa016KuFu+VFg==
+
+react-native-modalbox@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/react-native-modalbox/-/react-native-modalbox-2.0.2.tgz#8a7b3d2e7be79b5d1cb9530b2c6bc535b1bc8c66"
+  integrity sha512-uSuoZ+siPPNqWGyw8NXhA/Aots7mOx2+qijFoeovequY0kczZEPZDd0ARHbzg+1cE3H3AATJEwGdkVA8lUxs0g==
+  dependencies:
+    prop-types "^15.5.10"
+
+react-native-progress@^4.0.3:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/react-native-progress/-/react-native-progress-4.1.2.tgz#ffb2264ddfeba409c730e36a9791bb7bbe07a00d"
+  integrity sha512-sFHs6k6npWDOyvQoL2NeyOyHb+q1s8iOAOeyzoObN77zkxOAsgJt9FcSJLRq70Mw7qSGNJMFDqCgvYR1huYRwQ==
+  dependencies:
+    "@react-native-community/art" "^1.1.2"
+    prop-types "^15.7.2"
+
+react-native-stories@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/react-native-stories/-/react-native-stories-0.0.3.tgz#a60f9827842671597b6447e6ba7c39a291c8428e"
+  integrity sha512-w3YjX1d88KZUKEkCePM8SXWNBJWi9mMd0PuV3cTZ0TXJcMNL7o5pYYGD2bN6NE4B3QQTl6amcqECQiXSha/MjA==
+
+react-native-story@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/react-native-story/-/react-native-story-0.1.3.tgz#5502bdafd7ebf0b4c7fd018dba6c69f21a6e1449"
+  integrity sha512-C+qJWp3mD8ZIxoh+xYBOqxzJgsEpRY1HGVLjmw+i2Vtt7PooDJCLiPRNh2lQ4KZ/UEbKWWoiDES3HoF9+vbqxg==
 
 react-native@0.61.5:
   version "0.61.5"
@@ -6889,9 +6940,9 @@ xtend@~4.0.1:
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
-  integrity sha1-bRX7qITAhnnA136I53WegR4H+kE=
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 "y18n@^3.2.1 || ^4.0.0", y18n@^4.0.0:
   version "4.0.0"
